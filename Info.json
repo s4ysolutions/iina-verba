@@ -1,0 +1,17 @@
+{
+  "name": "Verba",
+  "identifier": "solutions.s4y.verba",
+  "version": "0.1.0",
+  "description": "Select a word in the subtitles and add it to Verba",
+  "author": {
+    "name": "s4y.solutions",
+    "url": "https://verba.s4y.solutions"
+  },
+  "entry": "index.js",
+  "permissions": ["show-osd", "video-overlay"],
+  "preferencesPage": "prefs.html",
+  "preferenceDefaults": {
+    "server_url": "https://verba.s4y.solutions",
+    "shortcut": "a"
+  }
+}
