@@ -1,4 +1,4 @@
-# Verba for IINA
+# Verba Connect for IINA
 
 Select a word in the subtitles and add it to [Verba](https://verba.s4y.solutions).
 
@@ -7,12 +7,14 @@ Verba with the word in the add form. Nothing is saved until you press Add in Ver
 
 ## Install
 
-For now, link the folder (needs the `iina-plugin` command line tool):
+In IINA: Settings > Plugins > Install from GitHub, then enter `s4ysolutions/iina-verba`.
 
-    iina-plugin link /Users/dsa/s4y/iina-verba
+For developers: link the folder (needs the `iina-plugin` command line tool):
 
-Later, from GitHub: IINA > Settings > Plugins > Install from GitHub, then enter `<owner>/<repo>` (placeholder, not
-decided yet).
+    git clone https://github.com/s4ysolutions/iina-verba
+    iina-plugin link ./iina-verba
+
+Verba web app: https://verba.s4y.solutions
 
 ## Use
 
@@ -32,7 +34,7 @@ Each press opens a new browser tab.
 
 ## Preferences
 
-IINA > Settings > Plugins > Verba > Preferences.
+IINA > Settings > Plugins > Verba Connect > Preferences.
 
 - Verba server URL. Default: `https://verba.s4y.solutions`.
 - Shortcut. Default: `a`. The key is read when IINA starts, so restart IINA after you change it.

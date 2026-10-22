@@ -1,5 +1,5 @@
 {
-  "name": "Verba",
+  "name": "Verba Connect",
   "identifier": "solutions.s4y.verba",
   "version": "0.1.0",
   "description": "Select a word in the subtitles and add it to Verba",
@@ -7,6 +7,8 @@
     "name": "s4y.solutions",
     "url": "https://verba.s4y.solutions"
   },
+  "ghVersion": 1,
+  "ghRepo": "s4ysolutions/iina-verba",
   "entry": "index.js",
   "permissions": ["show-osd", "video-overlay"],
   "preferencesPage": "prefs.html",
